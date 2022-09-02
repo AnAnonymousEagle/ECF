@@ -28,7 +28,7 @@ header {
   justify-content: space-between;
   align-items: center;
   transition: 1s;
-  padding: 40px 80px;
+  padding: 40px 40px;
   z-index: 1;
   transition: 1s;
 }
@@ -178,14 +178,18 @@ section {
 }
 
 .info-container {
+  flex-wrap: wrap;
   display: flex;
   color: white;
   font-size: 30px;
   font-family: 'Raleway', sans-serif;
   justify-content: space-around;
-  align-items: flex-start;
+  align-items: center;
   align-content: center;
   padding: 40px 100px;
+  height: 500px;
+  min-width: 500px;
+  min-width: 0;
 }
 
 .info-item {
@@ -196,32 +200,24 @@ section {
   font-size: 16px;
   margin-top: 10px;
   padding: 10px;
-  left: 20px;
   position: relative;
 }
 
 .quill {
-  height: 200px;
+  height: 100px;
   width: auto;
 }
 
 .container1 {
-  order: 2;
+
 }
 .container2 {
-  order: 1;
-  flex: 0 0 80%;
-  position: relative;
+
 }
 .container3 {
-  order: 3;
-  flex-grow: 1;
-  font-size: 20px;
 }
 
-.create {
-  text-align: center;
-}
+
 
 .create-form {
   background-color: #ffffff; 
@@ -244,4 +240,3 @@ section {
   color: white;
   border: 5px solid #ffffff;
 }
-
