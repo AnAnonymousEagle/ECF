@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+}
+
+.mainlogo {
+  height: 2.5em;
+}
+
+body {
+  height: auto;
+  background-color: #013220;
+  min-height: 100vh;
+}
+
+header {
+  background-color: #013220;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 1s;
+  padding: 40px 40px;
+  z-index: 1;
+  transition: 1s;
+}
+
+header .logo {
+  position: relative;
+  font-weight: bold;
+  color: whitesmoke;
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: 0.6s;
+  text-decoration: none;
+}
+
+header ul {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header ul li {
+  position: relative;
+  list-style: none;
+}
+
+header ul li a{
+  position: relative;
+  margin: 0 15px;
+  text-decoration: none;
+  letter-spacing: 2px;
+  transition: 1s;
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.banner {
+  position: relative;
+  width: 100%;
+  height: 650px;
+  background: url(banner.jpg);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: .5s;
+}
+
+.header {
+  padding: 60px;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+}
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+/* @media only screen and (min-width: 750px) {
+  div.icon {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  li {
+    display: none;
+  }
+ 
+} */
+
+div.icon {
+  position: relative;
+  margin: 0 15px;
+  text-decoration: none;
+  letter-spacing: 2px;
+  transition: 1s;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  justify-content: right;
+}
+
+.material-symbols-rounded {
+  color: whitesmoke;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+#arrow-down {
+  font-size: 48px !important;
+  animation: bounce 3s infinite;
+}
+
+@keyframes bounce {
+  0%,
+  100%,
+  20%,
+  50%,
+  80% {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+  60% {
+    -webkit-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    transform: translateY(-5px);
+  }
+}
+
+.material-symbols-outlined {
+  -webkit-animation: bounce 2s infinite 2s;
+  animation: bounce 2s infinite 2s;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+  color: white;
+  font-size: 48px !important;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 500,
+  'GRAD' 0,
+  'opsz' 500
+}
+
+.info {
+  position: relative;
+  width: 100%;
+  height: 800px;
+  background-color: #013220;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 1s;
+}
+
+section {
+  min-height: 100%;
+
+}
+
+.info-container {
+  flex-wrap: wrap;
+  display: flex;
+  color: white;
+  font-size: 30px;
+  font-family: 'Raleway', sans-serif;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  padding: 40px 100px;
+  height: 500px;
+  min-width: 500px;
+  min-width: 0;
+  gap: 40px;
+}
+
+.info-item {
+  margin: 20px
+}
+
+.info-item > p{
+  font-size: 16px;
+  margin-top: 10px;
+  position: relative;
+}
+
+.quill {
+  height: 100px;
+  width: auto;
+}
+
+
+
+
+
+.create-form {
+  background-color: #ffffff; 
+  border: none;
+  color: #013220;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: auto;
+  margin-top: 50px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border: 5px solid #ffffff00;
+}
+
+.create-form:hover {
+  background-color: #013220;
+  color: white;
+  border: 5px solid #ffffff;
+}
