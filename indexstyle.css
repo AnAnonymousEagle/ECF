@@ -11,6 +11,10 @@ html {
   font-family: 'Raleway', sans-serif;
 }
 
+.mainlogo {
+  height: 2.5em;
+}
+
 body {
   height: auto;
   background-color: #013220;
