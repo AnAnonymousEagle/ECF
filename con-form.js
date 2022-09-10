@@ -1,3 +1,6 @@
+document.getElementById("navbar").style.top = "0";
+
+
 var form = document.getElementById('sheetdb-form');
 form.addEventListener("submit", e => {
   e.preventDefault();
